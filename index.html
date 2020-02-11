@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GitFetch</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><button id="btnRepos">Requests Left</button></li>
+          <li><button id="btnToFind" onclick="toFind()">Find</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="indexMain">
+      <div class="profile-head">
+        <div class="head-top">
+          <img id="prof-img" src="" alt="" class="profile-img" />
+          <h2 id="userActual"></h2>
+          <a id="userHandle" href="" target="_blank"></a>
+          <h3 id="userBio"></h3>
+          <div class="joined-date">
+            <img src="/img/icons8-calendar-16.png" alt="" srcset="" />
+            <p id="dateJoined" class="joined-date-text"></p>
+          </div>
+          <div class="profile-stats">
+            <div class="repos">
+              <p id="repos" class="stats-integer"></p>
+              <p class="stats-words">REPOS</p>
+            </div>
+            <div class="followers">
+              <p id="followers" class="stats-integer"></p>
+              <p class="stats-words">FOLLOWERS</p>
+            </div>
+            <div class="following">
+              <p id="following" class="stats-integer"></p>
+              <p class="stats-words">FOLLOWING</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
