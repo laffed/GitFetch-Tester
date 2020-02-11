@@ -65,11 +65,17 @@ nav button:focus {
   margin-bottom: 20px;
 }
 
-.head-top h2,
-.head-top h3 {
+.head-top h2 {
   font-size: xx-large;
   font-weight: 700;
   margin-top: 40px;
+}
+
+#userBio {
+  height: 100%;
+  max-width: 700px;
+  font-size: large;
+  font-weight: 700;
 }
 
 .head-top a {
@@ -139,6 +145,7 @@ nav button:focus {
 ------------- */
 
 .find-wrapper {
+  height: 90%;
   margin: 0;
   padding: 0;
   display: flex;
